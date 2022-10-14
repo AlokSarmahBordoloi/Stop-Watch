@@ -1,0 +1,64 @@
+body{
+    background-color: rgba(143, 138, 161, 0.645);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#container{
+    color: whitesmoke;
+}
+
+h1{
+    justify-content: center;
+    color: black;
+    text-shadow: 4px 3px 17px rgb(61, 219, 234);
+    display: flex;
+    font-family: 'Baloo Tamma 2', cursive;;
+    font-weight: 100;
+    font-size: 2.6em;
+    /* text-transform: uppercase; */
+  }
+
+.digit{
+    font-size: 135px;
+    font-weight: bold;
+}
+
+.txt{
+    font-size: 17px;
+    font-weight: bold;
+}
+
+#btn-container{
+    text-align: center;
+    margin-top: 35px;
+}
+
+.btn{
+    padding: 6px 27px;
+    font-size: 14px;
+    margin: 10px 15px;
+    color: black;
+    border: none;
+    font-family: 'Baloo Tamma 2', cursive;; 
+    cursor: pointer;
+    box-shadow: 4px 4px 26px rgba(11, 212, 205, 0.949);
+    transition: all 0.5s;
+    width: 120px;
+    text-transform: uppercase;
+    outline: none;
+}
+
+#start1{
+    background: rgb(241, 172, 93);
+}
+
+#stop1{
+    background: rgb(75, 243, 75);
+}
+
+#reset1{
+    background: rgb(242, 40, 40);
+}
